@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="QuestionModel.fs" />
+    <Compile Include="GenericRepository.fs" />
+    <Compile Include="QuestionRepository.fs" />
+    <Compile Include="ReportRepository.fs" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="FSharp.SystemTextJson" Version="1.1.23" />
+  </ItemGroup>
+</Project>
